@@ -14904,20 +14904,20 @@ hr {
     @media (max-width: 768px) {
       .main[data-con="coming"] .main-water {
         right: -10px;
-        min-width: 300px; } }
+        min-width: 300px;
+        top: auto;
+        bottom: 0; } }
     @media (max-width: 680px) {
       .main[data-con="coming"] .main-water {
         width: 200px;
+        height: 303px;
         min-width: auto;
         left: calc(50% - 130px);
-        top: 410px;
         margin-left: 20px; } }
     @media (max-width: 400px) {
       .main[data-con="coming"] .main-water {
-        width: 200px;
-        min-width: auto;
         left: calc(50% - 120px);
-        top: 380px; } }
+        bottom: -40px; } }
 
 /*@preserve
  * Tempus Dominus Bootstrap4 v5.1.2 (https://tempusdominus.github.io/bootstrap-4/)
