@@ -10876,7 +10876,7 @@ input::placeholder {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between; }
-  @media (max-width: 680px) {
+  @media (max-width: 650px) {
     .modal-header {
       padding: 10px 12px;
       -webkit-box-orient: vertical;
@@ -10909,7 +10909,7 @@ input::placeholder {
       -ms-flex-align: start;
           align-items: flex-start;
   color: #009844; }
-  @media (max-width: 680px) {
+  @media (max-width: 650px) {
     .modal-title {
       width: 100%;
       font-size: 1rem;
@@ -13067,7 +13067,7 @@ input::placeholder {
 
 .line-higher {
   line-height: 1.8; }
-  @media (max-width: 680px) {
+  @media (max-width: 650px) {
     .line-higher {
       line-height: 1.5; } }
 
@@ -13078,7 +13078,7 @@ input::placeholder {
     .map-title {
       font-size: 1.3rem; } }
 
-@media (max-width: 680px) {
+@media (max-width: 650px) {
   .media-title {
     font-size: 0.9rem; } }
 
@@ -13244,7 +13244,7 @@ input::placeholder {
   .step-list .step-item {
     border: 1px solid #009844;
     padding: 5px 20px; }
-    @media (max-width: 680px) {
+    @media (max-width: 650px) {
       .step-list .step-item {
         padding: 4px 13px;
         font-size: 0.9rem; } }
@@ -13411,7 +13411,7 @@ input::placeholder {
             justify-content: space-between; }
     .event-card .event-card-action > * {
       padding: 5px 25px; }
-  @media (max-width: 680px) {
+  @media (max-width: 650px) {
     .event-card .event-card-info {
       font-size: 0.9rem;
       letter-spacing: normal; } }
@@ -13447,7 +13447,7 @@ input::placeholder {
     @media (max-width: 768px) {
       .news-card .news-card-subtitle {
         font-size: 1rem; } }
-    @media (max-width: 680px) {
+    @media (max-width: 650px) {
       .news-card .news-card-subtitle {
         font-size: 0.9rem; } }
   .news-card .news-card-info {
@@ -13531,7 +13531,7 @@ input::placeholder {
     font-weight: 400; }
   .topic-card .topic-hot-tag {
     font-size: 0.9rem; }
-    @media (max-width: 680px) {
+    @media (max-width: 650px) {
       .topic-card .topic-hot-tag li {
         width: auto;
         margin: 0 2% 10px 2%; } }
@@ -13603,7 +13603,7 @@ input::placeholder {
     @media (max-width: 768px) {
       .mark-box .mark-box-menu li a {
         padding: 8px 20px 8px 20px; } }
-    @media (max-width: 680px) {
+    @media (max-width: 650px) {
       .mark-box .mark-box-menu li a {
         padding: 8px 10px 8px 10px;
         font-size: 0.9rem; } }
@@ -13620,7 +13620,7 @@ input::placeholder {
       @media (max-width: 768px) {
         .mark-box .mark-box-menu li a.active {
           padding: 12px 20px 8px 20px; } }
-      @media (max-width: 680px) {
+      @media (max-width: 650px) {
         .mark-box .mark-box-menu li a.active {
           padding: 12px 10px 8px 10px; } }
       .mark-box .mark-box-menu li a.active:hover {
@@ -13702,7 +13702,7 @@ input::placeholder {
 .form-text-box {
   height: 200px;
   border: 1px solid #f1f1f1; }
-  @media (max-width: 680px) {
+  @media (max-width: 650px) {
     .form-text-box {
       height: 300px; } }
 
@@ -13783,7 +13783,7 @@ input::placeholder {
   background-position: left top, right top;
   background-size: 20%, 30%; }
 
-@media (max-width: 680px) {
+@media (max-width: 650px) {
   .letter-spacing-mobile-n {
     letter-spacing: normal; } }
 
@@ -14344,7 +14344,7 @@ hr {
   min-width: 100%; }
   .rwd-table tr:nth-of-type(2n) {
     background: #9f9f9f; }
-  @media (max-width: 680px) {
+  @media (max-width: 650px) {
     .rwd-table tr {
       background: #012d46; } }
   .rwd-table th,
@@ -14352,7 +14352,7 @@ hr {
     margin: 0.5em 1em;
     text-align: left;
     border-top: 1px solid #4D4948; }
-    @media (max-width: 680px) {
+    @media (max-width: 650px) {
       .rwd-table th,
       .rwd-table td {
         border: none;
@@ -14361,21 +14361,21 @@ hr {
     background: #009844;
     color: #4D4948;
     font-weight: 500; }
-    @media (max-width: 680px) {
+    @media (max-width: 650px) {
       .rwd-table th {
         display: none; } }
   .rwd-table td {
     background: none;
     color: #fff;
     text-align: center; }
-    @media (max-width: 680px) {
+    @media (max-width: 650px) {
       .rwd-table td {
         display: block;
         text-align: left; } }
     .rwd-table td:before {
       content: attr(data-th) " : ";
       display: none; }
-      @media (max-width: 680px) {
+      @media (max-width: 650px) {
         .rwd-table td:before {
           display: inline-block;
           color: #4D4948; } }
@@ -14431,7 +14431,7 @@ hr {
   border: 0;
   border-radius: 5px;
   background: #fff; }
-  @media (max-width: 680px) {
+  @media (max-width: 650px) {
     #filter-box {
       width: 280px;
       top: 100px;
@@ -14445,7 +14445,7 @@ hr {
     background: url("../images/ic-point.svg") no-repeat;
     right: 12px;
     top: -13px; }
-    @media (max-width: 680px) {
+    @media (max-width: 650px) {
       #filter-box:before {
         right: 5px; } }
 
@@ -14469,7 +14469,7 @@ hr {
   @media (max-width: 768px) {
     .main {
       height: 580px; } }
-  @media (max-width: 680px) {
+  @media (max-width: 650px) {
     .main {
       height: 680px; } }
   .main > * {
@@ -14497,7 +14497,7 @@ hr {
       .main-title {
         width: 60%;
         top: 17%; } }
-    @media (max-width: 680px) {
+    @media (max-width: 650px) {
       .main-title {
         width: 310px;
         left: calc(50% - 155px);
@@ -14527,7 +14527,7 @@ hr {
     @media (max-width: 768px) {
       .main-text {
         top: 50%; } }
-    @media (max-width: 680px) {
+    @media (max-width: 650px) {
       .main-text {
         width: 280px;
         left: calc(50% - 170px);
@@ -14560,7 +14560,7 @@ hr {
         width: 48%;
         left: -55px;
         top: 70%; } }
-    @media (max-width: 680px) {
+    @media (max-width: 650px) {
       .main-animal {
         display: none; } }
   .main-phone {
@@ -14581,7 +14581,7 @@ hr {
       .main-phone {
         left: 47%;
         top: 48%; } }
-    @media (max-width: 680px) {
+    @media (max-width: 650px) {
       .main-phone {
         width: 130px;
         left: calc(50% + 65px);
@@ -14606,12 +14606,12 @@ hr {
     @media (max-width: 768px) {
       .main-water {
         right: -10px; } }
-    @media (max-width: 680px) {
+    @media (max-width: 650px) {
       .main-water {
         width: 180px;
         left: calc(50% - 90px);
         top: 350px;
-        margin-left: 20px; } }
+        margin-left: 40px; } }
   .main-action {
     display: inline-block;
     width: 236px;
@@ -14645,7 +14645,7 @@ hr {
         width: 180px;
         top: 480px;
         margin-left: 55px; } }
-    @media (max-width: 680px) {
+    @media (max-width: 650px) {
       .main-action {
         left: calc(50% - 90px);
         top: 570px;
@@ -14688,10 +14688,11 @@ hr {
   @media (max-width: 768px) {
     .main-grass {
       margin-top: -200px; } }
-  @media (max-width: 680px) {
+  @media (max-width: 650px) {
     .main-grass {
-      margin-top: -160px;
-      background-size: 1200px; } }
+      margin-top: -140px;
+      background: url("../images/main-grass.svg") no-repeat -50px top;
+      background-size: 1000px; } }
 
 /*------------------------活動尚未開始頁面----------------------------*/
 .wrapper[data-con="coming"] {
@@ -14705,12 +14706,16 @@ hr {
   @media (max-width: 768px) {
     .wrapper[data-con="coming"] {
       background-size: 1200px; } }
-  @media (max-width: 680px) {
+  @media (max-width: 650px) {
     .wrapper[data-con="coming"] {
-      background-size: 1000px; } }
+      background-size: 950px; } }
+  @media (max-width: 320px) {
+    .wrapper[data-con="coming"] {
+      background-size: 850px; } }
 
 .main[data-con="coming"] {
   position: relative;
+  min-height: 100vh;
   height: 1027px; }
   @media (max-width: 1320px) {
     .main[data-con="coming"] {
@@ -14725,10 +14730,13 @@ hr {
   @media (max-width: 768px) {
     .main[data-con="coming"] {
       height: 100vh; } }
-  @media (max-width: 680px) {
+  @media (max-width: 650px) {
+    .main[data-con="coming"] {
+      height: 680px; } }
+  @media (max-width: 320px) {
     .main[data-con="coming"] {
       min-height: 100vh;
-      height: 660px; } }
+      height: 620px; } }
   .main[data-con="coming"] > * {
     position: absolute; }
     .main[data-con="coming"] > * img {
@@ -14749,17 +14757,16 @@ hr {
         top: 17%; } }
     @media (max-width: 768px) {
       .main[data-con="coming"] .main-title {
-        width: 37%;
+        width: 40%;
         top: 90px; } }
-    @media (max-width: 680px) {
+    @media (max-width: 650px) {
       .main[data-con="coming"] .main-title {
-        width: 280px;
-        left: calc(50% - 140px);
+        width: 190px;
+        left: calc(50% - 160px);
         top: 90px; } }
     @media (max-width: 320px) {
       .main[data-con="coming"] .main-title {
-        width: 250px;
-        left: calc(50% - 125px);
+        left: calc(50% - 140px);
         top: 90px; } }
   .main[data-con="coming"] .main-coming {
     width: 72%;
@@ -14780,18 +14787,17 @@ hr {
         top: 28%; } }
     @media (max-width: 768px) {
       .main[data-con="coming"] .main-coming {
-        width: 65%;
-        top: 24%; } }
-    @media (max-width: 680px) {
+        width: 75%;
+        top: 18%; } }
+    @media (max-width: 650px) {
       .main[data-con="coming"] .main-coming {
         width: 320px;
         left: calc(50% - 160px);
-        top: 190px; } }
+        top: 150px; } }
     @media (max-width: 320px) {
       .main[data-con="coming"] .main-coming {
         width: 310px;
-        left: calc(50% - 155px);
-        top: 180px; } }
+        left: calc(50% - 155px); } }
   .main[data-con="coming"] .main-text {
     width: 48%;
     left: -10px;
@@ -14813,20 +14819,20 @@ hr {
         top: 48%; } }
     @media (max-width: 768px) {
       .main[data-con="coming"] .main-text {
-        top: 44%;
+        width: 50%;
+        top: 35%;
         left: 3%; } }
-    @media (max-width: 680px) {
+    @media (max-width: 650px) {
       .main[data-con="coming"] .main-text {
         width: 280px;
-        left: calc(50% - 150px);
-        top: 280px; } }
+        left: calc(50% - 160px);
+        top: 240px; } }
     @media (max-width: 320px) {
       .main[data-con="coming"] .main-text {
         width: 250px;
-        left: calc(50% - 140px);
-        top: 270px; } }
+        left: calc(50% - 140px); } }
   .main[data-con="coming"] .main-animal {
-    width: 57%;
+    width: 52%;
     left: -50px;
     top: 650px;
     z-index: 3; }
@@ -14848,8 +14854,8 @@ hr {
       .main[data-con="coming"] .main-animal {
         width: 57%;
         left: 0;
-        top: 60%; } }
-    @media (max-width: 680px) {
+        top: 50%; } }
+    @media (max-width: 650px) {
       .main[data-con="coming"] .main-animal {
         display: none; } }
   .main[data-con="coming"] .main-phone {
@@ -14871,22 +14877,23 @@ hr {
         left: 38%; } }
     @media (max-width: 768px) {
       .main[data-con="coming"] .main-phone {
-        left: 39%;
-        top: 42%; } }
-    @media (max-width: 680px) {
+        width: 24%;
+        left: 43%;
+        top: 35%; } }
+    @media (max-width: 650px) {
       .main[data-con="coming"] .main-phone {
         width: 120px;
         left: auto;
         right: calc(50% - 200px);
-        top: 270px; } }
+        top: 240px; } }
     @media (max-width: 320px) {
       .main[data-con="coming"] .main-phone {
         right: calc(50% - 180px);
-        top: 270px; } }
+        top: 230px; } }
   .main[data-con="coming"] .main-water {
-    width: 44%;
+    width: 45%;
     height: auto;
-    right: -50px;
+    right: -100px;
     top: auto;
     bottom: 0; }
     @media (max-width: 1320px) {
@@ -14903,21 +14910,26 @@ hr {
         min-width: 350px; } }
     @media (max-width: 768px) {
       .main[data-con="coming"] .main-water {
+        width: 45%;
         right: -10px;
         min-width: 300px;
         top: auto;
         bottom: 0; } }
-    @media (max-width: 680px) {
+    @media (max-width: 650px) {
       .main[data-con="coming"] .main-water {
-        width: 200px;
-        height: 303px;
+        width: 230px;
         min-width: auto;
-        left: calc(50% - 130px);
-        margin-left: 20px; } }
+        left: calc(50% - 120px);
+        margin-left: 60px; } }
     @media (max-width: 400px) {
       .main[data-con="coming"] .main-water {
         left: calc(50% - 120px);
         bottom: -40px; } }
+    @media (max-width: 320px) {
+      .main[data-con="coming"] .main-water {
+        width: 200px;
+        left: calc(50% - 100px);
+        bottom: -30px; } }
 
 /*@preserve
  * Tempus Dominus Bootstrap4 v5.1.2 (https://tempusdominus.github.io/bootstrap-4/)
