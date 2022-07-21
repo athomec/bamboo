@@ -13037,6 +13037,9 @@ footer {
         bottom: -180px;
         left: calc(50% - 110px);
         width: 120px; } }
+    @media (max-width: 375px) {
+      .notice-penguin {
+        left: calc(50% - 140px); } }
   .notice-tapir {
     position: absolute;
     bottom: 50px;
@@ -13057,6 +13060,9 @@ footer {
         bottom: -180px;
         right: calc(50% - 170px);
         width: 150px; } }
+    @media (max-width: 375px) {
+      .notice-tapir {
+        right: calc(50% - 140px); } }
   .notice-print-right {
     position: absolute;
     right: calc(50% - 670px);
