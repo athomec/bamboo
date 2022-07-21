@@ -59,7 +59,26 @@
 			</div>
 		</nav>
 	</header>
-	<div class="wrapper">
+	<!-- 提醒視窗開始 -->
+<div class="modal fade" id="alert" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+	aria-labelledby="staticBackdropLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content text-center">
+			<div class="modal-header bg-gray-xlight py-2">
+				<h5 class="modal-title secondary-color" id="staticBackdropLabel">！資料錯誤</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				請填寫隨機碼。
+			</div>
+			<div class="modal-footer pt-0 border-0">
+				<button type="button" class="btn btn-dark-secondary-color mx-auto" data-bs-dismiss="modal">我知道了</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- 內容開始 -->
+<div class="wrapper">
 	<div class="container main">
 		<div class="main-title"><img src="./assets/images/main-title.svg" alt="愛上黑與白"></div>
 		<div class="main-text"><img src="./assets/images/main-text.svg" alt="買竹炭水任兩件抽iPhone 13 Pro"></div>
@@ -221,18 +240,18 @@
 					<div class="form-check signup-check font-xlight mb-4">
 						<input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
 						<label class="form-check-label white" for="flexCheckChecked">
-							我已詳閱<a href="#"
-								class="link-white">活動說明及注意事項</a>，同意提供個資作為活動參加使用，並已確認輸入有效發票，保留有顯示購買商品的發票正本及購買明細，以利兌獎。
+							我已詳閱<a href="#notice"
+								class="link-white js-link-bookmark">活動說明及注意事項</a>，同意提供個資作為活動參加使用，並已確認輸入有效發票，保留有顯示購買商品的發票正本及購買明細，以利兌獎。
 						</label>
 					</div>
 					<div class="d-grid justify-content-center mb-2">
-						<button class="btn signup-action">送出</button>
+						<button class="btn signup-action" data-bs-toggle="modal" data-bs-target="#alert">送出</button>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<section class="section notice">
+	<section class="section notice" id="notice">
 		<div class="notice-penguin">
 			<img src="./assets/images/bg-penguin.svg">
 		</div>

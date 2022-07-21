@@ -9454,61 +9454,6 @@ select option[value=""] {
   .container {
     max-width: 800px; } }
 
-.modal-header {
-  padding: 10px 24px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
-  @media (max-width: 650px) {
-    .modal-header {
-      padding: 10px 12px;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: reverse;
-          -ms-flex-direction: column-reverse;
-              flex-direction: column-reverse; }
-      .modal-header[data-txt="less"] {
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: row;
-                flex-direction: row; }
-        .modal-header[data-txt="less"] .btn {
-          -webkit-box-flex: 0;
-              -ms-flex: 0 0 81px;
-                  flex: 0 0 81px; }
-        .modal-header[data-txt="less"] .modal-title {
-          width: auto; } }
-  .modal-header .btn-close {
-    background: url("../images/ic-cross.svg") center;
-    background-size: 24px;
-    opacity: 1; }
-    .modal-header .btn-close:hover {
-      opacity: 0.7; }
-
-.modal-title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  color: #009844; }
-  @media (max-width: 650px) {
-    .modal-title {
-      width: 100%;
-      font-size: 1rem;
-      margin-top: 8px; } }
-  .modal-title img {
-    width: 24px;
-    margin-right: 8px; }
-
-.modal-body {
-  font-size: 0.9rem; }
-  .modal-body label {
-    color: #9EDB24; }
-
-.modal-xl {
-  max-width: 1500px; }
-
 /*-----------------連結樣式---------------------*/
 .link-primary-color {
   color: #4D4948;
