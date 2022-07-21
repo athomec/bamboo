@@ -87,7 +87,8 @@
 					<div class="col-md-3 mb-3 mb-xl-0">
 						<img src="./assets/images/footer-logo.svg" alt="多喝水 鹼性竹炭水" class="footer-logo mx-auto">
 					</div>
-					<div class="order-3 order-md-2 col-md-9 col-xl-6 mb-3 mb-xl-0 d-flex justify-content-center justify-content-md-start">
+					<div
+						class="order-3 order-md-2 col-md-9 col-xl-6 mb-3 mb-xl-0 d-flex justify-content-center justify-content-md-start">
 						<div class="d-flex align-items-center h-100">
 							<img src="./assets/images/vedan-logo.svg" alt="味丹logo" class="vedan-logo me-2">
 							<p class="footer-copyright gray">
@@ -96,7 +97,8 @@
 							</p>
 						</div>
 					</div>
-					<div class="order-2 order-md-3 col-md-12 col-xl-3 d-flex justify-content-center justify-content-md-start mb-3 mb-md-0">
+					<div
+						class="order-2 order-md-3 col-md-12 col-xl-3 d-flex justify-content-center justify-content-md-start mb-3 mb-md-0">
 						<div class="footer-link d-flex align-items-center h-100">
 							<a href="https://www.facebook.com/morewaterofficial/" target="_blank" class="me-2">
 								<img src="./assets/images/ic-fb.svg" alt="FB連結">
@@ -114,9 +116,22 @@
 		<script src="assets/js/jquery-3.3.1.min.js"></script>
 		<script src="assets/js/bootstrap.bundle.js"></script>
 		<script src="assets/js/script.js"></script>
-		<script src="assets/js/footable.js"></script>
 		<script src="assets/js/moment-with-locales.min.js"></script>
 		<script src="assets/js/tempusdominus-bootstrap-4.min.js"></script>
+		<script type="text/javascript">
+			//日期選擇設定
+			$(function () {
+				$('#receipt').datetimepicker({
+					format: 'L',
+					locale: 'zh-tw',
+					//defaultDate: new Date(),  
+					widgetPositioning: {
+						horizontal: 'right',
+						vertical: 'bottom'
+					}
+				});
+			});
+		</script>
 </body>
 
 </html>
