@@ -13057,6 +13057,16 @@ footer {
         bottom: -180px;
         right: calc(50% - 170px);
         width: 150px; } }
+  .notice-print-right {
+    position: absolute;
+    right: calc(50% - 670px);
+    top: 50px; }
+    @media (max-width: 1650px) {
+      .notice-print-right {
+        right: 10%; } }
+    @media (max-width: 991px) {
+      .notice-print-right {
+        display: none; } }
   .notice-list-circle {
     padding-left: 25px; }
     .notice-list-circle > li {
