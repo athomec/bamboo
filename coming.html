@@ -121,7 +121,16 @@
 		<script type="text/javascript">
 			//日期選擇設定
 			$(function () {
-				$('#receipt').datetimepicker({
+				$('#receipt1').datetimepicker({
+					format: 'L',
+					locale: 'zh-tw',
+					//defaultDate: new Date(),  
+					widgetPositioning: {
+						horizontal: 'right',
+						vertical: 'bottom'
+					}
+				});
+				$('#receipt2').datetimepicker({
 					format: 'L',
 					locale: 'zh-tw',
 					//defaultDate: new Date(),  

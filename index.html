@@ -165,10 +165,10 @@
 					<div class="input-group date flex-nowrap align-items-stretch mb-2">
 						<div class="form-label input-group-text">發票一</div>
 						<div class="signup-info">
-							<div class="input-group" id="receipt" data-target-input="nearest">
+							<div class="input-group" id="receipt1" data-target-input="nearest">
 								<input type="text" class="form-control datetimepicker-input border-0 rounded-0"
-									data-target="#receipt" placeholder="發票日期" id="date1" />
-								<div class="input-group-append" data-target="#receipt" data-toggle="datetimepicker">
+									data-target="#receipt1" placeholder="發票日期" id="date1" />
+								<div class="input-group-append" data-target="#receipt1" data-toggle="datetimepicker">
 									<div class="input-group-btn bg-white">
 										<img src="./assets/images/ic-calendar.svg">
 									</div>
@@ -194,10 +194,10 @@
 						<button class="btn input-group-close"><img src="./assets/images/ic-cross.svg" alt="關閉"></button>
 						<div class="form-label input-group-text">發票二</div>
 						<div class="signup-info">
-							<div class="input-group" id="receipt" data-target-input="nearest">
+							<div class="input-group" id="receipt2" data-target-input="nearest">
 								<input type="text" class="form-control datetimepicker-input border-0 rounded-0"
-									data-target="#receipt" placeholder="發票日期" id="date1" />
-								<div class="input-group-append" data-target="#receipt" data-toggle="datetimepicker">
+									data-target="#receipt2" placeholder="發票日期" id="date1" />
+								<div class="input-group-append" data-target="#receipt2" data-toggle="datetimepicker">
 									<div class="input-group-btn bg-white">
 										<img src="./assets/images/ic-calendar.svg">
 									</div>
@@ -422,7 +422,16 @@
 		<script type="text/javascript">
 			//日期選擇設定
 			$(function () {
-				$('#receipt').datetimepicker({
+				$('#receipt1').datetimepicker({
+					format: 'L',
+					locale: 'zh-tw',
+					//defaultDate: new Date(),  
+					widgetPositioning: {
+						horizontal: 'right',
+						vertical: 'bottom'
+					}
+				});
+				$('#receipt2').datetimepicker({
 					format: 'L',
 					locale: 'zh-tw',
 					//defaultDate: new Date(),  
