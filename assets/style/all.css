@@ -12645,9 +12645,15 @@ footer {
   transition: all 0.2s ease; }
   .opening-img {
     width: 558px; }
+    @media (max-width: 991px) {
+      .opening-img {
+        width: 400px; } }
   .opening.out {
     opacity: 0;
     pointer-events: none; }
+  @media (max-width: 650px) {
+    .opening {
+      display: none; } }
 
 .slidein {
   -webkit-animation: opening 6s 1;
@@ -12655,6 +12661,9 @@ footer {
 
 #wrapper {
   display: none; }
+  @media (max-width: 650px) {
+    #wrapper {
+      display: block; } }
   #wrapper.open {
     display: block; }
 
