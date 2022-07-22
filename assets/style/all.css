@@ -12656,8 +12656,8 @@ footer {
       display: none; } }
 
 .slidein {
-  -webkit-animation: opening 6s 1;
-          animation: opening 6s 1; }
+  -webkit-animation: opening 5s 1;
+          animation: opening 5s 1; }
 
 #wrapper {
   display: none; }

@@ -49,21 +49,27 @@ $(function () {//JS開頭
 		$("html,body").animate({ scrollTop: $(section).offset().top - 150 }, 300);
 		return false;
 	});
-
+	//手機選單設定
+	$(".js-navbar-nav").find(".js-link-bookmark").click(function () {
+		$(".js-toggler").click();
+		return false;
+	});
+	
 
 	RESIZE();
 
-	/*$(window).resize(function () {
+	$(window).resize(function () {
 		RESIZE();
-	});*/
+	});
 
 	function RESIZE() {
 		WINDOWH = $(window).height();
 		WINDOW = $(window).width();
 
 		if (WINDOW < 768) {
-			$('.js-side-menu').addClass("close");
-			$(".js-side-content").addClass("close");
+			$('.navbar-toggler').addClass("js-toggler");
+		}else{
+			$('.navbar-toggler').removeClass("js-toggler");
 		}
 	}
 
