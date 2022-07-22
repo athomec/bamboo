@@ -12535,6 +12535,129 @@ footer {
 .container {
   max-width: 1200px; }
 
+/*------------------------進場動態開始----------------------------*/
+@-webkit-keyframes opening {
+  0% {
+    left: 230px;
+    top: 260px;
+    opacity: 0;
+    -webkit-transform: scale(0.2, 0.2);
+            transform: scale(0.2, 0.2); }
+  30% {
+    left: 700px;
+    top: 100px;
+    opacity: 1;
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1); }
+  32% {
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg); }
+  34% {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg); }
+  36% {
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg); }
+  38% {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg); }
+  41% {
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg); }
+  43% {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg); }
+  45% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    opacity: 1; }
+  60% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    opacity: 1; }
+  100% {
+    left: 780px;
+    top: 0;
+    opacity: 0; } }
+@keyframes opening {
+  0% {
+    left: 230px;
+    top: 260px;
+    opacity: 0;
+    -webkit-transform: scale(0.2, 0.2);
+            transform: scale(0.2, 0.2); }
+  30% {
+    left: 700px;
+    top: 100px;
+    opacity: 1;
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1); }
+  32% {
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg); }
+  34% {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg); }
+  36% {
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg); }
+  38% {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg); }
+  41% {
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg); }
+  43% {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg); }
+  45% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    opacity: 1; }
+  60% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    opacity: 1; }
+  100% {
+    left: 780px;
+    top: 0;
+    opacity: 0; } }
+
+.opening {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #000;
+  z-index: 1500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease; }
+  .opening-img {
+    width: 558px; }
+  .opening.out {
+    opacity: 0;
+    pointer-events: none; }
+
+.slidein {
+  -webkit-animation: opening 6s 1;
+          animation: opening 6s 1; }
+
+#wrapper {
+  display: none; }
+  #wrapper.open {
+    display: block; }
+
 /*------------------------版頭開始----------------------------*/
 .main {
   position: relative;

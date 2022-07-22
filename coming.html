@@ -20,7 +20,24 @@
 	<!--css設定-->
 </head>
 
-<body>
+<body onload="setup()">
+	<script>
+		function setup() {
+				var e = document.getElementById("opening");
+				e.addEventListener("animationend", listener, false);
+				e.classList.add("slidein");
+			}
+			function listener(e) {
+				var open = document.getElementById("opening-box");
+				var wrapper = document.getElementById("wrapper");
+				switch (e.type) {
+					case "animationend":
+						open.classList.add("out");
+						wrapper.classList.add("open");
+						break;
+				}
+			}
+	</script>
 	<header>
 		<nav class="navbar navbar-expand-md fixed-top">
 			<div class="container-fluid">

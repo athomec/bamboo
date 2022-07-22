@@ -3,7 +3,6 @@ $(function () {//JS開頭
 	var WINDOW = $(window).width();//視窗寬度
 	var WINDOWH = $(window).height();//視窗高度
 
-
 	//---------------------頁籤設定------------------------
 	$('.js-toggle-menu').find(".js-toggle-button").click(function () {
 		$(this).toggleClass("active");
